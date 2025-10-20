@@ -1,0 +1,93 @@
+/* === Header === */
+/*(1)this part matters for the flexibility of the page and wen c
+an define several property to adjust all block based on their spacial structure
+body{
+  display: flex;
+  flex: 1;
+  gap: normal;
+  justify-content:
+  margin-block:
+}
+ i have to redo to give this a style */
+
+/* (2)the header part*/
+header{
+  display: flex;
+  align-content:flex-end;
+}
+header img {
+  display: flex;
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px 20px;
+  transition: transform 0.3s ease;
+}
+
+header img:hover {
+  transform: scale(1.05);
+}
+.header-container{
+  display: flex;
+  flex: 50%;
+  justify-content: space-around;
+  gap: normal;
+  align-content: center;
+  gap: normal;
+}
+
+#nav {
+  display: flex;
+
+}
+
+nav{
+  display: flex;
+  flex: 100%;
+  align-content: center;
+  background-color:white;
+  padding:10px;
+  border:100px;
+
+}
+nav a{
+  color:midnightblue;
+  font-family:"Lucida Fax";
+  font-size:x-large;
+  font-weight: bolder;
+  text-decoration:none;
+  margin:0 1%;
+
+}
+nav a:visited{
+  color: cornflowerblue;
+}
+nav a:hover{
+  color:royalblue;
+}
+nav a:active{
+  color:darkblue;
+}
+
+.main-container{
+  display: flex;
+  background-color: dodgerblue;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);;
+}
+
+.main-intro-text{
+  font-family: "Lucida Fax";
+  font-size: xxx-large;
+  display: flex;
+  flex-direction: column;
+
+}
+
+footer{
+  display:flex;
+  flex:50%;
+  background-color: bisque;
+}
